@@ -19,8 +19,18 @@ The project follows a **Hybrid Architecture**:
 - **Clerk:** Handles Authentication and Identity.
 - **Stream:** Manages the Data Plane (Video/Audio transmission).
 - **Next.js Server:** Operates the Control Plane (Authorization & Metadata updates).
-- 
-### 1. Prerequisites
+  
+### Prerequisites
 - **Node.js** (v18 or later)
 - **npm** or **yarn**
 - Accounts for **Clerk** (Auth) and **GetStream** (Video)
+
+### Installation
+Clone the project
+git clone https://github.com/your-username/your-repo-name.git
+
+# Go into the project directory
+cd your-repo-name
+
+# Install dependencies
+npm install
